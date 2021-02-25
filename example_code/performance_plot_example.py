@@ -22,7 +22,7 @@ def MakePerformancePlots(results,model_name):
    #
    #
    # RETURNS:
-   # List() of matplitlib.pyplot.figure() objects
+   # List() of matplotlib.pyplot.figure() objects
     
     print('Making Performance Plots..')
 ########################################    
