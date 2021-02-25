@@ -1,5 +1,4 @@
 import pandas as pd
-import sqlite3
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -10,8 +9,6 @@ plot_data = pd.read_csv(r'X:\speciale\litterature\to_troels\mc_data_zenith.csv')
 
 plot_data = plot_data.reset_index(drop = True)
 plot_data_real = plot_data_real.reset_index(drop = True)
-
-db_file = r'X:\speciale\data\raw\dev_level7_oscNext_IC86_11_with_retro\data\dev_level7_oscNext_IC86_11_with_retro.db'
 
 
 
