@@ -558,4 +558,6 @@ axs_perf[1,1].legend()
 axs_perf[1,1].grid()
 axs_perf[1,1].set_xlabel('$Energy_{log_{10}} GeV$', size = 20) 
 
+plt.show()
+
 
